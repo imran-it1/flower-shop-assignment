@@ -7,3 +7,56 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+/* Header section Style */
+
+header {
+    height: 100vh;
+    background-color: rgba(229, 84, 115, 10%);
+}
+
+/* Hero Section Style */
+
+.heroWraper {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.hero_title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.hero_description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 70%;
+}
+
+.btn {
+    padding: 16px 36px;
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.hero-right {
+    display: flex;
+    align-self: flex-end;
+}
