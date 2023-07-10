@@ -13,6 +13,7 @@ body {
 header {
     height: 100vh;
     background-color: rgba(229, 84, 115, 10%);
+    margin-bottom: 180px;
 }
 
 /* Hero Section Style */
@@ -59,4 +60,77 @@ header {
 .hero-right {
     display: flex;
     align-self: flex-end;
+}
+
+/* Feature Section Style */
+
+main {
+    margin-bottom: 150px;
+}
+
+.featureWraper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.feature-up {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature_title {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.feature_description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 40%;
+    margin: auto;
+}
+
+
+/* Flower Card Style */
+
+.flower_img_one {
+    background-image: url('../Asset/pngwing6.png');
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+
+.flower_img_two {
+    background-image: url('../Asset/pngwing5.png');
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+}
+
+.flower_img_three {
+    background-image: url('../Asset/pngwing7.png');
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+
+.flower-card-wraper {
+    display: flex;
+    gap: 70px;
+}
+
+.flower-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.flower-card p {
+    text-decoration: underline;
 }
