@@ -371,3 +371,40 @@ header {
     display: flex;
     gap: 10px;
 }
+
+/* Footer Style */
+
+
+footer {
+    background-color: #111010;
+    padding: 120px 0px;
+}
+
+.footer_title {
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.footer_description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 30%;
+    margin: auto;
+}
+
+.footer_copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
