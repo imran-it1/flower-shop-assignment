@@ -64,16 +64,13 @@ header {
 
 /* Feature Section Style */
 
-main {
-    margin-bottom: 150px;
-}
-
 .featureWraper {
     display: flex;
     flex-direction: column;
     gap: 50px;
     width: 80%;
     margin: auto;
+    margin-bottom: 120px;
 }
 
 .feature-up {
@@ -133,4 +130,34 @@ main {
 
 .flower-card p {
     text-decoration: underline;
+}
+
+/* Service Section Style */
+
+.serviceWraper {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 120px;
+    padding: 80px 120px;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin-bottom: 120px;
+}
+
+.service-card-wraper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.service_name {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 22px;
+    font-weight: 400;
 }
