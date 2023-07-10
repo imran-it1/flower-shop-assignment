@@ -307,3 +307,67 @@ header {
     gap: 9px;
     margin-bottom: 10px;
 }
+
+
+/* User Subscribe Section style */
+
+.subsWraper {
+    width: 80%;
+    margin: auto;
+    background-image: url("../Asset/Rectangle9.png");
+    padding: 150px 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 120px;
+}
+
+
+.subs_title {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.subs_description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 40%;
+    margin: auto;
+}
+
+.subs-up {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.sub-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.subsWraper input {
+    padding: 16px 36px;
+    border-radius: 8px;
+    border: none;
+    background: #FFF;
+    color: #27272799;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.subsWraper input:focus {
+    border: none;
+    outline: 1.5px solid #272727ce;
+}
+
+.subs-btn-container {
+    display: flex;
+    gap: 10px;
+}
