@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -200,4 +201,42 @@ header {
 
 .special-text {
     color: #E55473;
+}
+
+/* Social Section Style */
+
+.socialWraper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 120px;
+}
+
+.social_title {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social_description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 40%;
+    margin: auto;
+}
+
+.social-up {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.flowwer-card-container {
+    display: flex;
+    gap: 56px;
 }
