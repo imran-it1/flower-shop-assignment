@@ -211,7 +211,7 @@ header {
     gap: 50px;
     width: 80%;
     margin: auto;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
 }
 
 .social_title {
@@ -239,4 +239,71 @@ header {
 .flowwer-card-container {
     display: flex;
     gap: 56px;
+}
+
+/* Sales Section Style */
+
+.salesWraper {
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 120px;
+
+}
+
+.sales-up {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.sale_title {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sale_description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    max-width: 40%;
+    margin: auto;
+}
+
+
+.sales_img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.sales-card {
+    width: 300px;
+    height: 380px;
+}
+
+.sale_price {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sales_information {
+    text-align: center;
+}
+
+.sales-card {
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.sales-card-wraper {
+    display: flex;
+    gap: 9px;
+    margin-bottom: 10px;
 }
