@@ -41,6 +41,8 @@ header {
     max-width: 70%;
 }
 
+/* Button Shared Style */
+
 .btn {
     padding: 16px 36px;
     color: #FFF;
@@ -49,6 +51,14 @@ header {
     border-radius: 8px;
     background: #E55473;
     border: none;
+    box-shadow: 1px 4px 16px 0px rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #202020;
+    color: white;
+    outline: 1px solid lightgreen;
 }
 
 .hero-left {
@@ -129,8 +139,14 @@ header {
     gap: 32px;
 }
 
+.flower-card:hover img {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
 .flower-card p {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 /* Service Section Style */
@@ -274,6 +290,10 @@ header {
     margin: auto;
 }
 
+.sales_image_container:hover img {
+    cursor: pointer;
+}
+
 
 .sales_img {
     width: 100%;
@@ -385,6 +405,10 @@ footer {
     color: rgba(255, 255, 255, 1);
     font-size: 40px;
     font-weight: 800;
+}
+
+.footer_title:hover {
+    cursor: pointer;
 }
 
 .footer_description {
